@@ -21,6 +21,9 @@ Sec 01-2
 #### Link to the repo
 https://github.com/anveshrokanlawar/bigdata-imdb-analysis
 
+## Introduction:
+ In this project, we will be predicting about which director has highest rating, lowest rating,    average rating and finding the count of rating by the end of the project. Through this, we can predict the popularity of the director.
+
 #### Issue tracker link
 https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
 
