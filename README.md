@@ -58,8 +58,23 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     Director: Alfred Machin       Votes: 112
 
     3. Reducer Output:
-    Director: Louis Feuillade       Max_value: 1853
+    Director: Louis Feuillade       Max_value: 3936
 
     4. Chart: Bar Chart.
 
+
+1. Min - Akhil Kumar reddy busireddy
+1. Question : For each director, find the minimum number of votes.
+1. Solution : 
+    1. Mapper Input : tt0003037,Juve contre Fantômas,Juve contre Fantômas,1913,1913-09-08,"Crime, Drama",61,France,French,Louis Feuillade,"Marcel Allain, Louis Feuillade",Société des Etablissements L. Gaumont,"René Navarre, Edmund Breon, Georges Melchior, Renée Carl, Yvette Andréyor, Laurent Morléas","In Part Two of Louis Feuillade's 5 1/2-hour epic follows FantÃ'mas, the criminal lord of Paris, master of disguise, the creeping assassin in black, as he is pursued by the equally resourceful Inspector Juve.",7.0,1295,,,,,8.0,22.0 
+    
+    2. Mapper Output/ Reducer input:
+    Director: Louis Feuillade       Votes: 1295
+    Director: Louis Feuillade      Votes: 1853
+    Director: Alfred Machin       Votes: 112
+
+    3. Reducer Output:
+    Director: Louis Feuillade       Min_Value: 126
+
+    4. Chart: Bar Chart.
 
