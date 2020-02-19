@@ -40,5 +40,10 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
 - VERACITY: The data looks clean without any messy and is trustworthy as the data is obtained(Scraped) from publicly available website. But there are few empty fields in some columns on which we are not performing any computing operations.
 - VALUE: From the data we can predict, towards which director movies are the people most interested or eagerly waiting to watch. This data would be useful for filmmaker to get collaborated with the top directors based on the data to make more profits.
 
+#### Data :
+- Local : [./data/IMDb movies.csv](./data/IMDb movies.csv)
+- Original : https://www.kaggle.com/stefanoleone992/imdb-extensive-dataset#IMDb%20movies.csv
+
+
 
 
