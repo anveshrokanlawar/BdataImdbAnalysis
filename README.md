@@ -47,9 +47,9 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
 
 #### Big Data Problems :
 
-- Max - Leela Krishna Kosaraju
-- Question : For each director, find the maximum number of votes.
-- Solution : 
+1. Max - Leela Krishna Kosaraju
+1. Question : For each director, find the maximum number of votes.
+1. Solution : 
     1. Mapper Input : tt0003037,Juve contre Fantômas,Juve contre Fantômas,1913,1913-09-08,"Crime, Drama",61,France,French,Louis Feuillade,"Marcel Allain, Louis Feuillade",Société des Etablissements L. Gaumont,"René Navarre, Edmund Breon, Georges Melchior, Renée Carl, Yvette Andréyor, Laurent Morléas","In Part Two of Louis Feuillade's 5 1/2-hour epic follows FantÃ'mas, the criminal lord of Paris, master of disguise, the creeping assassin in black, as he is pursued by the equally resourceful Inspector Juve.",7.0,1295,,,,,8.0,22.0 
     
     2. Mapper Output/ Reducer input:
