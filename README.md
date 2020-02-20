@@ -1,4 +1,4 @@
-#### Project Name
+﻿#### Project Name
 ## IMDB Analysis
 
 #### Course: 
@@ -53,12 +53,13 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     1. Mapper Input : tt0003037,Juve contre Fantômas,Juve contre Fantômas,1913,1913-09-08,"Crime, Drama",61,France,French,Louis Feuillade,"Marcel Allain, Louis Feuillade",Société des Etablissements L. Gaumont,"René Navarre, Edmund Breon, Georges Melchior, Renée Carl, Yvette Andréyor, Laurent Morléas","In Part Two of Louis Feuillade's 5 1/2-hour epic follows FantÃ'mas, the criminal lord of Paris, master of disguise, the creeping assassin in black, as he is pursued by the equally resourceful Inspector Juve.",7.0,1295,,,,,8.0,22.0 
     
     2. Mapper Output/ Reducer input:
-    Director: Louis Feuillade       Votes: 1295
-    Director: Louis Feuillade      Votes: 1853
-    Director: Alfred Machin       Votes: 112
+    Louis Feuillade       1295
+    Louis Feuillade       1853
+    Alfred Machin         112
 
     3. Reducer Output:
-    Director: Louis Feuillade       Max_value: 3936
+    Louis Feuillade       1853
+    Alfred Machin         112
 
     4. Chart: Bar Chart.
    
@@ -68,12 +69,13 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     1. Mapper Input : tt0003037,Juve contre Fantômas,Juve contre Fantômas,1913,1913-09-08,"Crime, Drama",61,France,French,Louis Feuillade,"Marcel Allain, Louis Feuillade",Société des Etablissements L. Gaumont,"René Navarre, Edmund Breon, Georges Melchior, Renée Carl, Yvette Andréyor, Laurent Morléas","In Part Two of Louis Feuillade's 5 1/2-hour epic follows FantÃ'mas, the criminal lord of Paris, master of disguise, the creeping assassin in black, as he is pursued by the equally resourceful Inspector Juve.",7.0,1295,,,,,8.0,22.0 
     
     2. Mapper Output/ Reducer input:
-    Director: Louis Feuillade       Votes: 1295
-    Director: Louis Feuillade      Votes: 1853
-    Director: Alfred Machin       Votes: 112
+    Louis Feuillade      1295
+    Louis Feuillade      1853
+    Alfred Machin        112
 
     3. Reducer Output:
-    Director: Louis Feuillade       Min_Value: 126
+    Louis Feuillade      1295
+    Alfred Machin        112
 
     4. Chart: Bar Chart.
 
@@ -84,12 +86,28 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
      1. Mapper Input : tt0014702	Beau Brummel	Beau Brummel	1924	1924-03-30	Drama, History, Romance	135	USA		Harry Beaumont	Clyde Fitch, Dorothy Farnum	Warner Bros.	John Barrymore, Mary Astor, Willard Louis, Carmel Myers, Irene Rich, Alec B. Francis, William Humphrey, Richard Tucker, George Beranger, Clarissa Selwynne, John J. Richardson, Claire de Lorez, Michael...	George Bryan Brummel, a British military officer, loves Lady Margery, the betrothed of Lord Alvanley. Despite her own desperate love for Brummel, she submits to family pressure and marries ...	6.7	393		$ 290705
     
     2. Mapper Output/ Reducer input:
-    Production Company : Warner Bros.
-    Production Company : Milano Film
-    Production Company : Warner Bros.
+    Warner Bros		1
+    Milano Film		1
+    Warner Bros		1
 
     3. Reducer Output:
-    Production Company : Warner Bros.      Count : 20
-    Production Company : Milano Film        Count : 2
+    Warner Bros.      2
+    Milano Film       1
+
+    4. Chart: Pie Chart.
+
+- Count - Anvesh Rokanlawar
+- Question : For each Production Company, find the average number of votes.
+- Solution : 
+     1. Mapper Input : tt0014702	Beau Brummel	Beau Brummel	1924	1924-03-30	Drama, History, Romance	135	USA		Harry Beaumont	Clyde Fitch, Dorothy Farnum	Warner Bros.	John Barrymore, Mary Astor, Willard Louis, Carmel Myers, Irene Rich, Alec B. Francis, William Humphrey, Richard Tucker, George Beranger, Clarissa Selwynne, John J. Richardson, Claire de Lorez, Michael...	George Bryan Brummel, a British military officer, loves Lady Margery, the betrothed of Lord Alvanley. Despite her own desperate love for Brummel, she submits to family pressure and marries ...	6.7	393		$ 290705
+    
+    2. Mapper Output/ Reducer input:
+    Warner Bros	 7778
+    Milano Film	 1236
+    Warner Bros	 4356
+
+    3. Reducer Output:
+    Warner Bros.       6067
+    Milano Film        1236
 
     4. Chart: Pie Chart.
