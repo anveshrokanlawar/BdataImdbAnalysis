@@ -78,3 +78,19 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
 
     4. Chart: Bar Chart.
 
+
+- Count - Ravi Varma Devulapally
+- Question : For each Production Company, find the total count of records.
+- Solution : 
+     1. Mapper Input : tt0014702	Beau Brummel	Beau Brummel	1924	1924-03-30	Drama, History, Romance	135	USA		Harry Beaumont	Clyde Fitch, Dorothy Farnum	Warner Bros.	John Barrymore, Mary Astor, Willard Louis, Carmel Myers, Irene Rich, Alec B. Francis, William Humphrey, Richard Tucker, George Beranger, Clarissa Selwynne, John J. Richardson, Claire de Lorez, Michael...	George Bryan Brummel, a British military officer, loves Lady Margery, the betrothed of Lord Alvanley. Despite her own desperate love for Brummel, she submits to family pressure and marries ...	6.7	393		$ 290705
+    
+    2. Mapper Output/ Reducer input:
+    Production Company : Warner Bros.
+    Production Company : Milano Film
+    Production Company : Warner Bros.
+
+    3. Reducer Output:
+    Production Company : Warner Bros.      Count : 20
+    Production Company : Milano Film        Count : 2
+
+    4. Chart: Pie Chart.
