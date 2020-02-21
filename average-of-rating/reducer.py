@@ -21,7 +21,7 @@ for line in s:
     thisvalue = thisvalue + int(votes)
     counter = counter + 1
   else:
-    r.write( thiskey + '\t' + str(thisvalue/counter)+'\n')
+    r.write( thiskey + ',' + str(thisvalue/counter)+'\n')
     # start over when changing keys
     thiskey = production_company
     thisvalue = int(votes)
@@ -29,7 +29,7 @@ for line in s:
 
   # output final entry
 
-r.write( thiskey + '\t' + str(thisvalue/counter)+'\n')
+r.write( thiskey + ',' + str(thisvalue/counter)+'\n')
 
 s.close()
 r.close()
