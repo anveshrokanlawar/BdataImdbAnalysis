@@ -62,6 +62,7 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     Alfred Machin         112
 
     4. Chart: Bar Chart.
+    ![bar_chart](https://github.com/anveshrokanlawar/bigdata-imdb-analysis/blob/master/images/Max%20Votes%20of%20directors.png "bar chart")
    
 - **Min - Akhil Kumar reddy busireddy**
 - Question : For each director, find the minimum number of votes.
