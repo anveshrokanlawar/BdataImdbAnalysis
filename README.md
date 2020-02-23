@@ -110,4 +110,4 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     Warner Bros.       6067
     Milano Film        1236
 
-    4. Chart: Pie Chart.
+    4. Chart: Bar Chart.
