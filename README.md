@@ -79,7 +79,7 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
 
     4. Chart: Bar Chart.
     
-    ![bar_chart](https://github.com/anveshrokanlawar/bigdata-imdb-analysis/blob/master/images/Avergae%20of%20votes%20bar%20chart.PNG "bar chart")
+    ![bar_chart](https://github.com/anveshrokanlawar/bigdata-imdb-analysis/blob/master/images/Min%20Votes%20of%20directors.png "bar chart")
 
 
 - **Count - Ravi Varma Devulapally**
