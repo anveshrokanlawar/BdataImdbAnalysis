@@ -1,34 +1,29 @@
 s = open("sorteddata.csv","r",encoding="utf-8")
 r = open("maxreduced.csv", "w",encoding="utf-8")
 
-thiskey = ""
-thisvalue = 0
-max =0
-
+thisKey = ""
+thisValue = 0
 
 for line in s:
-  data = line.strip().split(',')
-  director, votes = data
+    data = line.strip().split(',')
+    director,votes = data
 
-  if thiskey == "":
-    if director:
-      thiskey = director
+    if director != thisKey:
+        if thisKey:
+            # output the last key value pair result
+            r.write( thisKey + ',' + str(thisValue) + '\n')
+        
+        #startover when changing keys
+        thisKey = director
+        thisValue = int(votes)
 
-  # apply the aggregation function
-  
-  if director == thiskey:
-    if max < int(votes):
-      max = int(votes)
-  else:
-    r.write( thiskey + ',' + str(max)+'\n')
-    # start over when changing keys
-    thiskey = director
-    thisvalue = int(votes)
-    max = 0
+    # apply the aggregation function
 
-  # output final entry
+    if(int(votes) > int(thisValue)):
+        thisValue = int(votes)
 
-r.write( thiskey + ',' + str(max)+'\n')
+# output the final entry when done
+r.write( thisKey + ',' + str(thisValue) + '\n')
 
 s.close()
 r.close()
