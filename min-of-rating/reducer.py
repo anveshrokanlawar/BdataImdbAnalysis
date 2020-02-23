@@ -11,19 +11,19 @@ for line in s:
     if director != thisKey:
         if thisKey:
             # output the last key value pair result
-            r.write( thisKey + '\t' + str(thisValue) + '\n')
+            r.write( thisKey + ',' + str(thisValue) + '\n')
         
         #startover when changing keys
         thisKey = director
-        thisValue = float(votes)
+        thisValue = int(votes)
 
     # apply the aggregation function
 
-    if(float(votes) < float(thisValue)):
-        thisValue = float(votes)
+    if(int(votes) < int(thisValue)):
+        thisValue = int(votes)
 
 # output the final entry when done
-r.write( thisKey + '\t' + str(thisValue) + '\n')
+r.write( thisKey + ',' + str(thisValue) + '\n')
 
 s.close()
 r.close()
