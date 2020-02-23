@@ -98,6 +98,8 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     Milano Film       1
 
     4. Chart: Pie Chart.
+       
+    ![pie chart](https://github.com/anveshrokanlawar/bigdata-imdb-analysis/blob/master/images/Count%20of%20movies%20done%20by%20production.PNG "pie chart")
 
 - **Average - Anvesh Rokanlawar**
 - Question : For each Production Company, find the average number of votes.
