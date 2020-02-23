@@ -111,3 +111,6 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     Milano Film        1236
 
     4. Chart: Bar Chart.
+    
+    ![bar_chart](https://github.com/anveshrokanlawar/bigdata-imdb-analysis/blob/master/images/Avergae%20of%20votes%20bar%20chart.PNG "bar chart")
+
