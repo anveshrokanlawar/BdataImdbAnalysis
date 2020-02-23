@@ -1,4 +1,4 @@
-﻿#### Project Name
+#### Project Name
 ## IMDB Analysis
 
 #### Course: 
@@ -47,7 +47,7 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
 
 #### Big Data Problems :
 
-- Max - Leela Krishna Kosaraju
+- **Max - Leela Krishna Kosaraju**
 - Question : For each director, find the maximum number of votes.
 - Solution : 
     1. Mapper Input : tt0003037,Juve contre Fantômas,Juve contre Fantômas,1913,1913-09-08,"Crime, Drama",61,France,French,Louis Feuillade,"Marcel Allain, Louis Feuillade",Société des Etablissements L. Gaumont,"René Navarre, Edmund Breon, Georges Melchior, Renée Carl, Yvette Andréyor, Laurent Morléas","In Part Two of Louis Feuillade's 5 1/2-hour epic follows FantÃ'mas, the criminal lord of Paris, master of disguise, the creeping assassin in black, as he is pursued by the equally resourceful Inspector Juve.",7.0,1295,,,,,8.0,22.0 
@@ -63,7 +63,7 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
 
     4. Chart: Bar Chart.
    
-- Min - Akhil Kumar reddy busireddy
+- **Min - Akhil Kumar reddy busireddy**
 - Question : For each director, find the minimum number of votes.
 - Solution : 
     1. Mapper Input : tt0003037,Juve contre Fantômas,Juve contre Fantômas,1913,1913-09-08,"Crime, Drama",61,France,French,Louis Feuillade,"Marcel Allain, Louis Feuillade",Société des Etablissements L. Gaumont,"René Navarre, Edmund Breon, Georges Melchior, Renée Carl, Yvette Andréyor, Laurent Morléas","In Part Two of Louis Feuillade's 5 1/2-hour epic follows FantÃ'mas, the criminal lord of Paris, master of disguise, the creeping assassin in black, as he is pursued by the equally resourceful Inspector Juve.",7.0,1295,,,,,8.0,22.0 
@@ -80,7 +80,7 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     4. Chart: Bar Chart.
 
 
-- Count - Ravi Varma Devulapally
+- **Count - Ravi Varma Devulapally**
 - Question : For each Production Company, find the total count of records.
 - Solution : 
      1. Mapper Input : tt0014702	Beau Brummel	Beau Brummel	1924	1924-03-30	Drama, History, Romance	135	USA		Harry Beaumont	Clyde Fitch, Dorothy Farnum	Warner Bros.	John Barrymore, Mary Astor, Willard Louis, Carmel Myers, Irene Rich, Alec B. Francis, William Humphrey, Richard Tucker, George Beranger, Clarissa Selwynne, John J. Richardson, Claire de Lorez, Michael...	George Bryan Brummel, a British military officer, loves Lady Margery, the betrothed of Lord Alvanley. Despite her own desperate love for Brummel, she submits to family pressure and marries ...	6.7	393		$ 290705
@@ -96,7 +96,7 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
 
     4. Chart: Pie Chart.
 
-- Average - Anvesh Rokanlawar
+- **Average - Anvesh Rokanlawar**
 - Question : For each Production Company, find the average number of votes.
 - Solution : 
      1. Mapper Input : tt0014702	Beau Brummel	Beau Brummel	1924	1924-03-30	Drama, History, Romance	135	USA		Harry Beaumont	Clyde Fitch, Dorothy Farnum	Warner Bros.	John Barrymore, Mary Astor, Willard Louis, Carmel Myers, Irene Rich, Alec B. Francis, William Humphrey, Richard Tucker, George Beranger, Clarissa Selwynne, John J. Richardson, Claire de Lorez, Michael...	George Bryan Brummel, a British military officer, loves Lady Margery, the betrothed of Lord Alvanley. Despite her own desperate love for Brummel, she submits to family pressure and marries ...	6.7	393		$ 290705
