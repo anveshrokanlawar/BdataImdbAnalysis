@@ -62,6 +62,7 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     Alfred Machin         112
 
     4. Chart: Bar Chart.
+    ![bar_chart](https://github.com/anveshrokanlawar/bigdata-imdb-analysis/blob/master/images/Max%20Votes%20of%20directors.png "bar chart")
    
 - **Min - Akhil Kumar reddy busireddy**
 - Question : For each director, find the minimum number of votes.
@@ -78,6 +79,8 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     Alfred Machin        112
 
     4. Chart: Bar Chart.
+    
+    ![bar_chart](https://github.com/anveshrokanlawar/bigdata-imdb-analysis/blob/master/images/Min%20Votes%20of%20directors.png "bar chart")
 
 
 - **Count - Ravi Varma Devulapally**
@@ -95,6 +98,8 @@ https://github.com/anveshrokanlawar/bigdata-imdb-analysis/issues
     Milano Film       1
 
     4. Chart: Pie Chart.
+       
+    ![pie chart](https://github.com/anveshrokanlawar/bigdata-imdb-analysis/blob/master/images/Count%20of%20movies%20done%20by%20production.PNG "pie chart")
 
 - **Average - Anvesh Rokanlawar**
 - Question : For each Production Company, find the average number of votes.
